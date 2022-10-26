@@ -1,0 +1,54 @@
+#t1{
+    width: 100%;
+    background-color: rgba(10, 10, 10, 0.884);
+    border:3px black solid;
+    
+}
+
+#t3{
+    width: 70%;
+    background-color: rgb(255, 255, 255);
+  
+}
+#t4{
+    width: 20%;
+    background-color: rgb(55, 61, 79);
+    border:1px black solid;
+    font-style: italic;
+}
+
+
+#kdb{
+width: 75%;
+border-radius: 40%;
+
+
+}
+#kdb2{
+    width: 70%;
+    height: 400px;
+}
+
+#cuadrado{
+    width: 100%;
+height: 100px;
+background: (0, 0, 0);
+animation-name: ola;
+animation-duration: 1000s;
+animation-direction:right
+animation-timing-function:ease;
+animation-iteration-count:infinite;
+position: relative;
+}
+
+@keyframes ola{
+0%{background: rgb(35, 122, 173);right: 0;top:0px}
+.1%{background: rgb(18, 98, 138);right: 0;top:0px}
+.2%{background: rgb(44, 62, 120);right: 0;top:0px}
+.5%{background: rgb(44, 62, 120);right: 300px;top:0px}
+100%{background: rgb(44, 62, 120);right: 300px;top:0px}
+}
+body{
+    background-color: rgb(15, 15, 85);
+    }
+      
